@@ -69,6 +69,9 @@
     <Build Include="FK_ReportStyleElement_ElementId.sql" />
     <Build Include="FK_ReportStyleElement_ReportStyleId.sql" />
     <Build Include="up_ReportStyle_by_StyleId.sql" />
+    <Build Include="ReportStyleAssignation.sql" />
+    <Build Include="FK_ReportStyleAssignation_StyleId.sql" />
+    <Build Include="up_ReportStyle_by_name_and_parameter.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ISS.refactorlog" />
